@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes API's</title>
+    <link rel="icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/445/952/png-clipart-computer-icons-smiley-joke-oxygen-project-face-with-tongue-out-smiley-desktop-wallpaper.png">
+    <style>
+        body{
+            height: 100vh;
+            background-color: darkblue;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        div{
+            width :30%;
+            justify-content: center;
+            background-color: aliceblue;
+            color: black;
+            padding: 50px;
+            box-shadow: 3px 3px rgb(84, 80, 77);
+            border-radius: 10px;
+            
+        }
+        p{
+            background-color: white;
+            padding: 20px;
+        }
+        div:hover{
+            transform: scale(1.05);
+            background-size: cover;
+            transition: 0.5s ease-in-out;
+        }
+        @media (max-width: 768px) {
+            div {
+                width: 50%;
+                padding: 30px;
+            }
+            p {
+                padding: 15px;
+            }
+        }
+        @media (max-width: 576px) {
+            div {
+                width: 60%;
+                padding: 20px;
+            }
+            p {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 400px) {
+            div {
+                width: 70%;
+                padding: 15px;
+            }
+            p {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
+        @media (hover: none) {
+            div:active {
+                transform: scale(1.05);
+                background-size: cover;
+                transition: 0.5s ease-in-out;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script src="./script.js">
+    </script>
+</body>
+</html>
